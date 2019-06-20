@@ -20,7 +20,7 @@ public class RectangleTest {
         //When
         double area = rectangle.getArea();
         //Then
-        Assert.assertEquals(area, 50, 0.0);
+        Assert.assertEquals(50, area, 0.0);
     }
 
     @Test
@@ -29,6 +29,6 @@ public class RectangleTest {
         //When
         double perimeter = rectangle.getPerimeter();
         //Then
-        Assert.assertEquals(perimeter, 30, 0.00);
+        Assert.assertEquals(30, perimeter, 0.00);
     }
 }
