@@ -1,7 +1,10 @@
 package com.lilihuang;
 
+/**
+ * Rectangle Class
+ */
 public class Rectangle {
-    
+
     private double length;
     private double width;
 
